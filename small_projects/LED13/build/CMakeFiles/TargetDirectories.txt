@@ -1,0 +1,3 @@
+C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/build/CMakeFiles/LED13.dir
+C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/build/CMakeFiles/rebuild_cache.dir

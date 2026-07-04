@@ -1,0 +1,7 @@
+[project]
+sourceDir=C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/src
+buildDir=C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/build
+cmakeArgs="-DCMAKE_TOOLCHAIN_FILE=C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/toolchain.cmake"
+generator=MinGW Makefiles
+target=
+sourceFile=C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/src/main.c
