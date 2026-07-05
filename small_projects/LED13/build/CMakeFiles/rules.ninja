@@ -17,7 +17,7 @@
 rule C_COMPILER__LED13_unscanned_
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\BluePillEmulator_v1.0.0_pro_win64_portable\tools\xpack-arm-none-eabi-gcc-13.3.1-1.1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\BluePillEmulator_v1.0.0_pro_win64_portable\tools\xpack-arm-none-eabi-gcc-13.3.1-1.1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__LED13_unscanned_
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__LED13_
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\BluePillEmulator_v1.0.0_pro_win64_portable\tools\xpack-arm-none-eabi-gcc-13.3.1-1.1\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\BluePillEmulator_v1.0.0_pro_win64_portable\tools\xpack-arm-none-eabi-gcc-13.3.1-1.1\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\BluePillEmulator_v1.0.0_pro_win64_portable\tools\cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\small_projects\LED13 -BC:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\small_projects\LED13\build
+  command = C:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\BluePillEmulator_v1.0.0_pro_win64_portable\tools\cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\small_projects\LED13 -BC:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\small_projects\LED13\build
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\BluePillEmulator_v1.0.0_pro_win64_portable\tools\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\BluePillEmulator_v1.0.0_pro_win64_portable\tools\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\admin\Desktop\AI_code\BluePill\bluepill_emu\dist\BluePillEmulator_v1.0.0_pro_win64_portable\tools\ninja.exe -t targets
+  command = C:\Users\admin\Desktop\AI_code\BluePill\free_version\zip\BluePillEmulator_v1.0.0_pro_win64_portable\tools\ninja.exe -t targets
   description = All primary targets available:
 

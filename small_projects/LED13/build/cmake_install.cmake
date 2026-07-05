@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13
+# Install script for directory: C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/small_projects/LED13
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/small_projects/LED13/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

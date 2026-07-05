@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.26200")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/small_projects/LED13/toolchain.cmake")
+include("C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/small_projects/LED13/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

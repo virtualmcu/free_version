@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_C_COMPILER "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "13.3.1")
@@ -22,11 +22,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ld.exe")
+set(CMAKE_AR "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ar.exe")
+set(CMAKE_C_COMPILER_AR "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/bin/arm-none-eabi-ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -75,7 +75,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Users/admin/Desktop/AI_code/BluePill/bluepill_emu/dist/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include;C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;C:/Users/admin/Desktop/AI_code/BluePill/free_version/zip/BluePillEmulator_v1.0.0_pro_win64_portable/tools/xpack-arm-none-eabi-gcc-13.3.1-1.1/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
